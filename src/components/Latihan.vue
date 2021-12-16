@@ -25,57 +25,148 @@
       </div>
     </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <h1>About</h1>
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col">
+            <h2>About</h2>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda maiores recusandae maxime saepe ea voluptates eos minus ex eligendi praesentium eaque minima, velit aliquid facilis? Voluptatem nostrum nulla praesentium quisquam.
-        </p>
+      <div class="row justify-content-center mb-5 align-items-center">
+        <div class="col-md-4 text-center">
+          <ol>
+            <li>Nama:Tiara Khoirunnisa</li>
+            <li>Tempat/Tgl Lahir:Bandung,2-Februari-2004</li>
+            <li>id instagram:@tiarakh.04</li>
+          </ol>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="../assets/tiara.jpg" width="150" height="150" alt="" />
+        </div>
       </div>
-      <div class="col">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci optio neque cupiditate nisi voluptate perspiciatis aut cumque amet ab ad praesentium totam incidunt, doloribus fuga maxime itaque blanditiis sit illo?</p>
-      </div>
-    </div>
+    </section>
 
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <h1>Portfolio</h1>
+    <section id="portfolio" class="portfolio bg-light pb-4">
+      <div class="container">
+        <div class="row mb-4 pt-4">
+          <div class="col">
+            <h2>Portfolio</h2>
+          </div>
+        </div>
+
+        <div class="row mb-4">
+          <div class="col-md">
+            <div class="card" style="width: 18rem">
+              <img src="../assets/download.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card" style="width: 18rem">
+              <img src="../assets/ipad.jpg" class="card-img-top" height="191" alt="..." />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card" style="width: 18rem">
+              <img src="../assets/pc.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-4">
+          <div class="col-md">
+            <div class="card" style="width: 18rem">
+              <img src="../assets/download.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card" style="width: 18rem">
+              <img src="../assets/ipad.jpg" class="card-img-top" height="191" alt="..." />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card" style="width: 18rem">
+              <img src="../assets/pc.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col">
-          <div class="card" style="width: 18rem">
-            <img src="../assets/download.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
+    </section>
+
+    <section id="contact" class="contact mb-5">
+      <div class="container">
+        <div class="row pt-4 mb-4">
+          <div class="col">
+            <h2>contact us</h2>
           </div>
         </div>
-        <div class="col">
-          <div class="card" style="width: 18rem">
-            <img src="../assets/ipad.jpg" class="card-img-top" height="191" alt="..." />
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="row justify-content-center">
+          <div class="col-lg-4">
+            <div class="card text-white bg-primary mb-3">
+              <div class="card-body">
+                <h5 class="card-title">contact us</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
             </div>
+            <ul class="list-group">
+              <li class="list-group-item"><h1>location</h1></li>
+              <li class="list-group-item">my home</li>
+              <li class="list-group-item">Jl. palasari Blk.113 RT.11 RW.07, Kel.Turangga, Kec.Lengkong, Kota Bandung, Jawa Barat, Indonesia 40264</li>
+              <li class="list-group-item">west java, Indonesia</li>
+            </ul>
           </div>
-        </div>
-        <div class="col">
-          <div class="card" style="width: 18rem">
-            <img src="../assets/pc.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
+          <div class="col-lg-6">
+            <form class="text-left">
+              <div class="form-group">
+                <label for="nama">Nama</label>
+                <input type="text" class="form-control" id="nama" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" class="form-control" id="email" />
+              </div>
+              <div class="form-group">
+                <label for="telp">No.Telp</label>
+                <input type="text" class="form-control" id="telp" />
+              </div>
+              <div class="form-group">
+                <label for="pesan">pesan</label>
+                <textarea name="pesan" id="pesan" class="form-control"></textarea>
+              </div>
+              <div class="formgrup">
+                <button type="submit" class="btn btn-primary">kirim</button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
-    </div>
+    </section>
+    <footer class="bg-dark text-white">
+      <div class="container">
+        <div class="row pt-3">
+          <div class="col">
+            <p>copyright 2021@ by Tiara</p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
 <script>

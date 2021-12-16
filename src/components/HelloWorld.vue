@@ -40,7 +40,7 @@
     <h3>Deskripsi:</h3>
     <p>Membentuk peserta didik yang memiliki kreatifitas tinggi, terampil beradaptasi dengan perubahan dunia, siap bertanggung jawab dalam setiap keputusan yang diambil serta memiliki tenggang rasa antar sesama makhluk.</p>
     <h4>MISI:</h4>
-    <ol type="1">
+    <ol>
       <li>Memiliki keunggulan dan kompeten di bidang keperawatan sosial, perhotelan, multimedia dan tata boga</li>
       <li>Memiliki kemampuan berinovasi untuk menciptakan karya sesuai dengan tuntutan Dunia Usaha/Dunia Industri (DU/DI)</li>
       <li>Memiliki penyesuaian diri terhadap perubahan di lingkungan sekolah, masyarakat, nasional dan internasional</li>
