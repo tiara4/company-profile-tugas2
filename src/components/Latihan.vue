@@ -1,5 +1,5 @@
 <template>
-  <div id="">
+  <div id="Home">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <div class="container">
         <a class="navbar-brand" href="#">Tiara Khoirunnisa</a>
@@ -7,11 +7,11 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="#">About</a>
-            <a class="nav-link" href="#">Portfolio</a>
-            <a class="nav-link disabled">Contact</a>
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link active" href="#Home">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#About">About</a>
+            <a class="nav-link" href="#Portfolio">Portfolio</a>
+            <a class="nav-link" href="#Contact">Contact</a>
           </div>
         </div>
       </div>
@@ -25,7 +25,7 @@
       </div>
     </div>
 
-    <section id="about" class="about">
+    <section id="About" class="about">
       <div class="container">
         <div class="row mb-4">
           <div class="col">
@@ -47,7 +47,7 @@
       </div>
     </section>
 
-    <section id="portfolio" class="portfolio bg-light pb-4">
+    <section id="Portfolio" class="portfolio bg-light pb-4">
       <div class="container">
         <div class="row mb-4 pt-4">
           <div class="col">
@@ -110,7 +110,7 @@
       </div>
     </section>
 
-    <section id="contact" class="contact mb-5">
+    <section id="Contact" class="contact mb-5">
       <div class="container">
         <div class="row pt-4 mb-4">
           <div class="col">
@@ -162,7 +162,7 @@
       <div class="container">
         <div class="row pt-3">
           <div class="col">
-            <p>copyright 2021@ by Tiara</p>
+            <p>&copy; copyright by Tiara khoirunnisa 2021</p>
           </div>
         </div>
       </div>

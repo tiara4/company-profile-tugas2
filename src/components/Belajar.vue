@@ -2,17 +2,17 @@
   <div id="Home">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">my website </a>
+        <a class="navbar-brand" href="#">My Website </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
+          <div class="navbar-nav ml-auto">
             <a class="nav-link active" href="#Home">Home <span class="sr-only">(current)</span></a>
             <a class="nav-link" href="#About">About</a>
             <a class="nav-link" href="#Galeri">Galeri</a>
             <a class="nav-link" href="#Testimonial">Testimonial</a>
-            <a class="nav-link disabled">Contact</a>
+            <a class="nav-link" href="#Contact">Contact</a>
           </div>
         </div>
       </div>
@@ -25,7 +25,7 @@
       </div>
     </div>
 
-    <section id="about" class="about">
+    <section id="About" class="about">
       <div class="container">
         <div class="row mb-4 pt-4">
           <div class="col">
@@ -113,7 +113,7 @@
       </div>
     </section>
 
-    <section id="contact" class="contact bg-light pb-4">
+    <section id="Contact" class="contact bg-light pb-4">
       <div class="container">
         <div class="row mb-4 pt-4">
           <div class="col">
@@ -148,21 +148,25 @@
       <div class="container">
         <div class="row pt-3">
           <div class="col">
-            <p>&copy; copyright by Tiara 2021</p>
+            <p>&copy; copyright by Tiara khoirunnisa 2021</p>
           </div>
         </div>
       </div>
     </footer>
   </div>
 </template>
+
 <script>
 export default {
   name: "Belajar",
 };
 </script>
+
 <style scoped>
 .jumbotron {
+  /* untuk memberi jarak bagian atas */
   padding-top: 100px;
+  /* untuk memasukan gambar di bagian background */
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/hero-img.jpg");
   background-size: cover;
   background-position: center;
@@ -184,33 +188,59 @@ export default {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .about p {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
 }
+
+.about img {
+  box-shadow: 0 0 10px white;
+}
+
 .contact {
   padding-top: 100px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/contact-bg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
 }
+
 .contact form {
   padding-bottom: 80px;
 }
+
 .contact label {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
+
 .Galeri {
   padding-bottom: 30px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/gallery-bg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: whitesmoke;
+  color: white;
+}
+
+.Galeri img {
+  box-shadow: 0 0 10px white;
+}
+
+.Testimonial .card {
+  border: 0;
+}
+
+.Testimonial img {
+  width: 125px;
+  height: 125px;
+  margin: auto;
 }
 
 @media (max-width: 767.98px) {
